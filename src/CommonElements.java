@@ -12,7 +12,7 @@ public class CommonElements {
         int a = 0;
         int b = 0;
         while ((a < arr1.length) && (b < arr2.length)) {
-            if (arr1[a] < arr2[b]) a++;
+            if (arr2[b] > arr1[a]) a++;
             else if (arr2[b] < arr1[a]) b++;
             else {
                 System.out.println(arr2[b]);
